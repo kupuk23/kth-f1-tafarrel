@@ -39,7 +39,7 @@ cd ~/f1_ws
 colcon build
 ``` 
 
-- Run this in your terminals:
+- Run this in your SEPARATE terminals:
 
 `roscore`\
 `rosrun package1 talker.py`\
