@@ -20,6 +20,7 @@ FOR UBUNTU ONLY :\
 
 ## Usage
 
+### For Exercise 1
 - Create your own workspace 
 ```
 mkdir ~/f1_ws
@@ -30,7 +31,7 @@ cd ~/f1_ws/src
 - Clone my repos to inside of the src folder\
 `git clone https://github.com/kupuk23/kth-f1-tafarrel.git`
 
-- Install dependencies for exercise 1, run `rosdep install --from-paths src --ignore-src -r -y`
+- Install dependencies, run `rosdep install --from-paths src --ignore-src -r -y`
 
 - Build the colcon
 ```
@@ -40,12 +41,15 @@ colcon build
 
 - Run this in your terminals:
 
-`roscore`
-`rosrun package1 talker.py`
+`roscore`\
+`rosrun package1 talker.py`\
 `rosrun package2 listener.py`
 
 - ***OPTIONAL*** run plotjuggler by using `rosrun plotjuggler plotjuggler` 
 
+### For Exercise 2
+- go to exercise2 path : `cd ~/f1_ws/src/exercise2`
+- run python file : `python3 run main.py`
 
 ## Contributing
 
