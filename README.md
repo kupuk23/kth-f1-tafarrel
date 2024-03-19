@@ -47,14 +47,11 @@ colcon build
 
 - ***OPTIONAL*** run plotjuggler by using `rosrun plotjuggler plotjuggler` 
 
+<img src="img/plot.png" width="500" height="300">
+
+
+
 ### For Exercise 2
 - go to exercise2 path : `cd ~/f1_ws/src/exercise2`
 - run python file : `python3 run main.py`
 
-## Contributing
-
-Guidelines for contributing to the project.
-
-## License
-
-Information about the project's license.
